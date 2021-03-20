@@ -71,7 +71,7 @@
                 </div>
                 <ul class="navbar-nav flex-column text-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">
                             <i class="fas fa-user fa-fw ml-2"></i>صفحه اصلی
                             <span
                                 class="sr-only">
@@ -80,7 +80,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">
                             <i
                                 class="fas fa-envelope-open-text fa-fw ml-2">
                             </i>ارتباط با ما
