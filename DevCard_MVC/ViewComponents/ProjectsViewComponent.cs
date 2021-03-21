@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using DevCard_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
